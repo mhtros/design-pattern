@@ -1,8 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{CBA0923F-C9A7-4533-B9FA-CC348C12FCA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{C2EB5A46-EC66-421F-BB05-E5C394AE0179}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C2EB5A46-EC66-421F-BB05-E5C394AE0179} = {CBA0923F-C9A7-4533-B9FA-CC348C12FCA2}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2EB5A46-EC66-421F-BB05-E5C394AE0179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2EB5A46-EC66-421F-BB05-E5C394AE0179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2EB5A46-EC66-421F-BB05-E5C394AE0179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2EB5A46-EC66-421F-BB05-E5C394AE0179}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
