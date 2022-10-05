@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{E2AA9DD4-F5F9-4392-A500-5BB85726FF89}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{C8191F60-7A12-488C-B7AB-9E6DF62B900C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,6 +16,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C2EB5A46-EC66-421F-BB05-E5C394AE0179} = {CBA0923F-C9A7-4533-B9FA-CC348C12FCA2}
 		{E2AA9DD4-F5F9-4392-A500-5BB85726FF89} = {CBA0923F-C9A7-4533-B9FA-CC348C12FCA2}
+		{C8191F60-7A12-488C-B7AB-9E6DF62B900C} = {CBA0923F-C9A7-4533-B9FA-CC348C12FCA2}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{C2EB5A46-EC66-421F-BB05-E5C394AE0179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -24,5 +27,9 @@ Global
 		{E2AA9DD4-F5F9-4392-A500-5BB85726FF89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2AA9DD4-F5F9-4392-A500-5BB85726FF89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2AA9DD4-F5F9-4392-A500-5BB85726FF89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8191F60-7A12-488C-B7AB-9E6DF62B900C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8191F60-7A12-488C-B7AB-9E6DF62B900C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8191F60-7A12-488C-B7AB-9E6DF62B900C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8191F60-7A12-488C-B7AB-9E6DF62B900C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
