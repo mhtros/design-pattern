@@ -2,7 +2,7 @@
 
 namespace AbstractFactory.Factories;
 
-class ModernFurnitureFactoryFactory : IFurnitureFactory
+internal class ModernFurnitureFactoryFactory : IFurnitureFactory
 {
     public ITable CreateTable()
     {

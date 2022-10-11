@@ -4,12 +4,12 @@ namespace Adapter;
 
 public sealed class RoundHole
 {
-    public int Radius { get; }
-
     public RoundHole(int radius)
     {
         Radius = radius;
     }
+
+    public int Radius { get; }
 
     public bool Fits(ICircularPeg peg)
     {

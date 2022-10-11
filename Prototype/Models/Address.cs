@@ -16,7 +16,7 @@ public class Address : ICloneable<Address>
             PostCode = PostCode,
             District = District,
             Number = Number,
-            Street = Street,
+            Street = Street
         };
     }
 

@@ -1,6 +1,6 @@
 ﻿namespace AbstractFactory.Furniture;
 
-class ModernChair : IChair
+internal class ModernChair : IChair
 {
     public void sitOn()
     {
